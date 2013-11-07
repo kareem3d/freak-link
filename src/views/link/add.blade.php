@@ -17,7 +17,7 @@
     <div class="control-group">
         <label class="control-label">Arguments <br><small>URL query format</small></label>
         <div class="controls">
-            <input type="text" name="Link[arguments]" value="{{ $link->arguments ? http_build_query($link->arguments) : '' }}"  class="span12"/>
+            <input type="text" name="Link[arguments]" value="{{ $link->getArgumentsString() }}"  class="span12"/>
         </div>
     </div>
 </form>

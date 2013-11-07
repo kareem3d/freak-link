@@ -1,7 +1,7 @@
 <div class="row-fluid">
     <div class="span12 widget">
         <div class="widget-header">
-            <span class="title">URL form</span>
+            <span class="title">URL</span>
         </div>
         <div class="widget-content form-container">
             <form class="form-horizontal form-editor" action="{{ freakUrl('packages/store/Link') }}" method="POST">

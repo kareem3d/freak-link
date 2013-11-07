@@ -20,7 +20,7 @@
     <tr>
         <th>Arguments</th>
         <td>
-            {{ http_build_query($link->arguments) }}
+            {{ $link->getArgumentsString() }}
         </td>
     </tr>
     </tbody>
