@@ -5,7 +5,7 @@
     <div class="control-group">
         <label class="control-label">URL</label>
         <div class="controls">
-            <input type="text" name="Link[relative_url]" value="{{ $link->url }}" class="span12" required/>
+            <input type="text" name="Link[relative_url]" value="{{ $link->relative_url }}" class="span12" required/>
         </div>
     </div>
     <div class="control-group">
